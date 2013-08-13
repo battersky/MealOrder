@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/view_bg" 
+    android:layout_width="fill_parent" android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+    <ImageView android:id="@+id/ImageCai" 
+                android:focusable="false" 
+                android:layout_width="100.0dip" 
+                android:layout_height="100.0dip" 
+                android:scaleType="center" 
+                android:layout_alignParentLeft="true" 
+                android:layout_alignParentTop="true"
+                android:background="@drawable/choose_menu_water_fall_bg1" />
+    <TextView android:id="@+id/TextCaiName" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:layout_marginLeft="5.0dip" 
+            android:layout_marginTop="8.0dip"
+            android:text="this is a test"
+            android:layout_alignParentTop="true" 
+            android:layout_toRightOf="@id/ImageCai"
+            style="@style/FontStyleBoldBlackBig" />
+    
+    
+    <TextView android:id="@+id/DishPrice"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+            android:layout_marginLeft="5.0dip"
+            android:paddingBottom="10dp"
+            android:layout_toRightOf="@id/ImageCai"
+            android:layout_alignParentBottom="true"
+            style="@style/FontStyleNormalBlackBig" />
+    
+    <com.batter.tabletag.ui.DishNumberWidget
+        android:id="@+id/NumberWidget"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

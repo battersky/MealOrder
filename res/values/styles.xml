@@ -1,0 +1,87 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+    </style>
+    
+    
+    <style name="DishDetailTheme" parent="AppBaseTheme">
+         <item name="android:windowAnimationStyle">@style/DishDetail.Window</item>
+    </style>
+    
+    
+    
+    <style name="DishDetail.Window" parent="@android:style/Animation.Activity">
+      <item name="android:activityOpenEnterAnimation">@anim/activity_detail_in</item>
+      <item name="android:activityOpenExitAnimation">@anim/activity_detail_hold</item>
+      <item name="android:activityCloseEnterAnimation">@anim/activity_detail_hold</item>
+      <item name="android:activityCloseExitAnimation">@anim/activity_detail_out</item>
+    </style>
+    
+        <style name="FontStyleNormalGraySmall" parent="@android:style/TextAppearance">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff807e7a</item>
+    </style>
+    
+    <style name="FontStyleNormalGrayBiger" parent="@android:style/TextAppearance">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff807e7a</item>
+    </style>
+    
+    <style name="FontStyleNormalGrayMiddle" parent="@android:style/TextAppearance">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff807e7a</item>
+    </style>
+    
+     <style name="FontStyleNormalBlackBig" parent="@android:style/TextAppearance">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    
+         <style name="FontStyleNormalBlackSmall" parent="@android:style/TextAppearance">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    
+        <style name="FontStyleBoldNumber" parent="@android:style/TextAppearance">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff404040</item>
+    </style>
+    
+    <style name="FontStyleBoldBlackMiddle" parent="@android:style/TextAppearance">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FF000000</item>
+    </style>
+    
+    <style name="FontStyleBoldBlackBig" parent="@android:style/TextAppearance">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FF000000</item>
+    </style>
+    
+    <style name="FontStyleNormalBlackLarger" parent="@android:style/TextAppearance">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+
+</resources>

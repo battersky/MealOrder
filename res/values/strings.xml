@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TableTag</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="key_guide_note">Please key in the table identifier on table tag</string>
+    <string name="restaurant_cover_note">Welcome to rubytuesday</string>
+    <string name="key_order_note">ORDER</string>
+    <string name="key_close_note">CLOSE</string>
+    <string name="prefix_dish_detail_tast">* Taste: </string>
+    <string name="prefix_dish_detail_origin">* Origin: </string>
+    <string name="prefix_dish_detail_recomendation">* Recomendation: </string>
+    <string name="prefix_dish_detail_charactor">* Charactor: </string>
+    <string name="total_price">Total: %s SEK</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+    
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Table 1"
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"/>
+
+    
+    
+    <RelativeLayout
+        android:id="@+id/OrderArea"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true" >
+
+        <TextView android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:background="#FF6600"
+        android:visibility="invisible"
+        android:layout_alignParentTop="true"
+        android:id="@+id/DishCount"/>
+        <TextView
+        android:id="@+id/OrderView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="15dp"
+        android:enabled="false"
+        android:textSize="18sp"
+        android:gravity="center" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/PriceView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Total: 0.0 SEK"
+        android:textSize="18sp" />
+
+</RelativeLayout>
